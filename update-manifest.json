@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "version": "4.1",
+  "releaseChannel": "stable",
+  "buildNumber": 20260923032004,
+  "releaseNotes": "GeoPreviewer 4.1 正式版。\n\n- 支持 GDB、SHP、MDB 数据浏览、空间预览、属性查看与导出。\n- 完善属性表编辑、多选、地图联动和符号样式匹配。\n- 新增 MDB 普通属性编辑与保存，保留几何及系统字段只读限制。\n- 更新底图服务管理、窗口启动位置和更新提示界面。\n- 改进 Windows 安装、升级与修复体验，按构建号识别更新。\n\nWindows x64 提供完整包（self-contained，内含运行时）和框架依赖包（framework-dependent，需要 .NET 10）。\n\n早期仅按数字版本检测更新的 4.1 用户，请手动安装本次正式版。\r\n",
+  "packages": [
+    {
+      "rid": "win-x64",
+      "deploymentMode": "self-contained",
+      "url": "https://github.com/SpDDoggy/GeoPreviewer-Releases/releases/download/v4.1-stable.20260923032004/GeoPreviewer-4.1-stable.20260923032004-win-x64-self-contained-setup.exe",
+      "size": 58812481,
+      "sha256": "72a4f0c89e8a17fde30020034a62f752e83fc79bc65bcdd572976fb1b5fe1599"
+    },
+    {
+      "rid": "win-x64",
+      "deploymentMode": "framework-dependent",
+      "url": "https://github.com/SpDDoggy/GeoPreviewer-Releases/releases/download/v4.1-stable.20260923032004/GeoPreviewer-4.1-stable.20260923032004-win-x64-framework-dependent-setup.exe",
+      "size": 33430495,
+      "sha256": "610e3a864cd63d9b7eb06d01909b72fdfd8c2d348ec839f83fd24b26130a742c"
+    }
+  ]
+}
