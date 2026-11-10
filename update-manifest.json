@@ -11,6 +11,13 @@
       "url": "https://github.com/SpDDoggy/GeoPreviewer-Releases/releases/download/v4.3.0-stable.20261109002000/GeoPreviewer-4.3.0-stable.20261109002000-win-x64-self-contained-setup.exe",
       "size": 62200975,
       "sha256": "a41f1e90e5ff53d2046f2bf8bba943ee6918bb9c6ba3cd1a6d0428a34615a478"
+    },
+    {
+      "rid": "win-x64",
+      "deploymentMode": "framework-dependent",
+      "url": "https://github.com/SpDDoggy/GeoPreviewer-Releases/releases/download/v4.3.0-stable.20261109002000/GeoPreviewer-4.3.0-stable.20261109002000-win-x64-framework-dependent-setup.exe",
+      "size": 36812261,
+      "sha256": "1ed451aec524a5421ece1c9c0f09a3de9ea0ae395c5fa12c3e7aae6dc73876b9"
     }
   ]
 }
